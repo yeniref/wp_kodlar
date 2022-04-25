@@ -39,8 +39,7 @@ echo get_the_post_thumbnail_url($icerik->ID,'medium'); //Seçenekler : thumbnail
 
 ```php
 /**
- * Temaya Öne Çıkarılmış Görsel Desteği Ekleme
- */
+ * Temaya Öne Çıkarılmış Görsel Desteği Ekleme */
 add_theme_support( 'post-thumbnails' ); //functions.php eklenecek
 ```
 # WORDPRESS HIZLI KODLARI
