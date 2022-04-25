@@ -30,6 +30,31 @@ echo get_the_post_thumbnail_url($icerik->ID,'medium'); //Seçenekler : thumbnail
  * Temaya Öne Çıkarılmış Görsel Desteği Ekleme */
 add_theme_support( 'post-thumbnails' ); //functions.php eklenecek
 ```
+
+## Tema Menü Desteği Ekleme
+
+```php
+/**
+ * ## Tema Menü Desteği Ekleme */
+ 
+function menu_bagla() {
+    register_nav_menus(
+      array(
+        'ust-menu' => __( 'Üst Menü' ),
+        'yan-menu' => __( 'Yan Menü' ),
+        'alt-menu' => __( 'Alt Menü' )
+      )
+    );
+  }
+add_action( 'init', 'menu_bagla' );
+
+wp_nav_menu( array(
+    'menu' => 'Üst Menü'
+) );
+
+```
+
+
 # WORDPRESS HIZLI KODLAR
 
 ## Son İçerikleri Çekme
