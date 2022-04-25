@@ -36,7 +36,8 @@ add_theme_support( 'post-thumbnails' ); //functions.php eklenecek
 ```php
 /**
  * ## Tema Menü Desteği Ekleme */
- 
+
+//backend
 function menu_bagla() {
     register_nav_menus(
       array(
@@ -48,6 +49,7 @@ function menu_bagla() {
   }
 add_action( 'init', 'menu_bagla' );
 
+//frontend
 wp_nav_menu( array(
     'menu' => 'Üst Menü'
 ) );
