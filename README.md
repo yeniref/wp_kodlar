@@ -30,7 +30,7 @@ echo get_the_post_thumbnail_url($icerik->ID,'medium'); //Seçenekler : thumbnail
  * Temaya Öne Çıkarılmış Görsel Desteği Ekleme */
 add_theme_support( 'post-thumbnails' ); //functions.php eklenecek
 ```
-# WORDPRESS HIZLI KODLARI
+# WORDPRESS HIZLI KODLAR
 
 ## Son İçerikleri Çekme
 
