@@ -67,3 +67,4 @@ foreach( $kategoriler as $kategori ) {
 Resim : <?php echo get_the_post_thumbnail_url($icerik->ID,'medium');?></br>
 <?php } ?>
 ```
+
