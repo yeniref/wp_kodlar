@@ -34,8 +34,10 @@ add_theme_support( 'post-thumbnails' ); //functions.php eklenecek
 ## Tema Menü Desteği Ekleme
 
 ```php
-/**
- * ## Tema Menü Desteği Ekleme */
+/*
+Tema Menü Desteği Ekleme
+https://developer.wordpress.org/reference/functions/wp_nav_menu/ Daha Fazla
+ */
 
 //backend
 function menu_bagla() {
