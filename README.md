@@ -2,18 +2,6 @@
 
 **Not:** Lütfen dikkatli olun ve yedek alın!
 
-**WORDPRESS TEMA KODLARI**
-
-- [Tema Title Çekme](#tema-title-cekme)
-
-- [Öne Çıkarılmış Görsel Adresi Çekme](#wordpres-on-gorsel-url)
-
-- [Temaya Öne Çıkarılmış Görsel Desteği Ekleme](#wordpres-on-gorsel-destek)
-
-
-**WORDPRESS HIZLI KODLARI**
-
-- [Son İçerikleri Çekme](#son-icerikler-kodu)
 
 # WORDPRESS TEMA KODLARI
 
